@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.body{
+  background-color: rgb(222, 219, 219);
+}
+.mainHeader{
+   display: flex;
+   justify-content: space-around; 
+   margin-top: 20px;
+   padding-top: 40px;
+   height: 120px;
+}
+
+.logo{
+    width: 200px;
+    height: 50px;
+    
+}
+.GreenBTN{
+    display: inline-block;
+    font-size: medium;
+    background-color:rgb(0, 173, 0) ;
+   padding: 7px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    
+}
+.GreenBTN:hover{
+  background-color: green;
+}
+.searchBarHeader{
+    padding: 9px;
+    outline: 3px solid green;
+    border-radius: 5px;
+}
+
+.navMain{
+    background-color: rgb(103, 103, 103);
+    text-align: center;
+    height: 40px;
+}
+.navlist{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.navLink{
+ color: white;
+ text-decoration: none;
+}
+.navLink:hover{
+    background-color:rgb(0, 183, 0);
+}
+.navLink:visited{
+    color: white;
+}
+.sec-image{
+    width: 100%;
+    height: 600px;
+}
+.headings{
+    margin-top: 20px;
+    text-align: center;
+}
+.Franchisequeries{
+    font-size: medium;
+}
+.youTube{
+  margin: 40px 200px;
+  width: 1100px;
+  height: 500px;
+}
+.image{
+    
+    height: 30px;
+
+}
+.OurOriginals{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    margin-left: 30px;
+}
+.productOriginals{
+    width: 48%;
+    height: 250px;
+}
+.imgTransition{
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+}
+.transitionProduct{
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.imgTransition:hover{
+    transform: scale(1.2);
+    
+}
+.GrayBTN{
+    display: inline-block;
+    font-size: medium;
+    background-color: rgb(100,100,100);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 7px 15px;
+    margin-left: 10px;
+}
+.GrayBTN:hover{
+    background-color:rgb(128, 128, 128) ;
+}
+.containerProduct{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    width: 20%;
+    border-radius: 5px;
+    background-color: white;
+    height: 400px;
+
+}
+.card:hover .btns{
+display: block;
+}
+
+.INGREDIENT-Story{
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+}
+.INGREDIENT-Story > div{
+    padding: 30px;
+    flex:1;
+}
+.INGREDIENT-Story div h2{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.INGREDIENT-Story div p{
+    text-align: center;
+    color: grey;
+    justify-content: center;
+}
+.imgTransitionSmall:hover{
+  transform: scale(0.7);
+  transition: transform 1s;
+}
+.imgTransitions{
+    margin-top: 10px;
+width: 100%;
+height:300px;
+}
+.imgTransitions:hover{
+    transform: scale(1.2);
+    transition: transform 1s;
+}
+.images{
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    width: 100%;
+    height:400px;
+}
+.storyDiv{
+    width: 80%;
+      background-color: white;
+    margin: 30px auto;
+    border: 1px solid rgb(216, 216, 216);
+    padding: 30px;
+    box-shadow: 2px 2px 3px 3px rgb(184, 184, 184);
+    border-radius: 9px ;
+    
+}
+.storyPara{
+      line-height: 1.8;
+      color: grey;
+}
+.btnDiv{
+    text-align: center;
+}
+.order{
+    text-align: center;
+    background-color: green;
+    background-size: 30%;
+}
